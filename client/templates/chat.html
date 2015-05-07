@@ -1,0 +1,13 @@
+<template name="chat">
+	<div class="chat-panel">
+		{{#if username}}
+			{{> chapp_form}}
+		{{else}}
+			{{> chapp_username}}
+		{{/if}}
+	</div>
+</template>
+
+<template name="chapp_username">
+	<input class="username" placeholder="Enter a username to chat" value="{{username}}" />
+</template>
