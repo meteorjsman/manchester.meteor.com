@@ -1,0 +1,18 @@
+<template name="layout">
+	<div class="container">
+	  <div class="row">
+	    <div class="col-xs-12">
+	    	{{>yield}}
+	    </div>
+	  </div>
+	</div>
+	{{> chat}}
+</template>
+
+<template name="loading">
+	<!-- Loading... -->
+</template>
+
+<template name="notFound">
+	Not found!
+</template>

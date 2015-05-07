@@ -7,3 +7,5 @@
 meteor-platform
 afruth:chapp
 less
+twbs:bootstrap
+iron:router
