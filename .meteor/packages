@@ -5,3 +5,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
+afruth:chapp
+less
+twbs:bootstrap
+iron:router
